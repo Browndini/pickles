@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "BT",
+  "name": "Brine Time",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,20 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "BTLetters.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "BTLetters.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
+  "background_color": "#F2ECDF",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "scope": "/",
+  "theme_color": "#B5A53B",
+  "description": "Living food for lively people"
 }
