@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: #F2ECDF;
+  background: #f2ecdf;
   display: flex;
   position: fixed;
 }
@@ -22,9 +22,8 @@ body {
   display: flex;
 }
 
-
 .App-header {
-  background-color: #B5A53B;
+  background-color: #b5a53b;
   display: flex;
   align-items: center;
   color: white;
@@ -32,4 +31,64 @@ body {
   width: 100vw;
   overflow: hidden;
   justify-content: center;
+}
+
+.foot-link,
+.foot-email,
+:visited {
+  text-decoration: none;
+  color: black;
+}
+.foot-link:active {
+  color: aqua;
+}
+a {
+  align-items: center;
+  display: flex;
+}
+footer svg {
+  padding-right: 3px;
+}
+footer svg:hover,
+footer svg:active {
+  fill: #f2ecdf;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+  gap: 35px;
+}
+.card {
+  width: 80%;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 0 15px;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 0px black;
+}
+.classic {
+  background: #b5a53b;
+}
+.mole {
+  background: #e76224;
+}
+.thai {
+  background: #a4d9cd;
+}
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  bottom: 0px;
+  left: 0px;
+  height: max-content;
+  overflow: hidden;
+  background: #b5a53b;
+  padding: 10px;
+  width: 100%;
 }
